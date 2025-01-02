@@ -1,25 +1,26 @@
-# 🎈 Streamlit + LLM Examples App
+# LLM Agent Structures
 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/streamlit/llm-examples?quickstart=1)
+This streamlit app, inspired by [Building effective agents by anthropic](https://www.anthropic.com/research/building-effective-agents), aims to demonstrate the most advanced LLM agent structures to date.
 
-Starter examples for building LLM apps with Streamlit.
+
+<img width="1379" alt="Screenshot 2025-01-03 at 10 03 40 am" src="https://github.com/user-attachments/assets/c846c64e-4b55-4342-80db-8510bc213931" />
 
 ## Overview of the App
 
-This app showcases a growing collection of LLM minimum working examples.
+Current structures include:
 
-Current examples include:
+- Augmented LLM
 
-- Chatbot
-- File Q&A
-- Chat with Internet search
-- LangChain Quickstart
-- LangChain PromptTemplate
-- Chat with user feedback
+
+Structures in development include:
+- Prompt chaining
+- Routing
+- Parallelization
+- Orchestrator-workers
+- Evaluator-optimizer
 
 ## Demo App
-
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://llm-examples.streamlit.app/)
+- To be deployed
 
 ### Get an OpenAI API key
 
