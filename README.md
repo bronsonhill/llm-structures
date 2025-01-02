@@ -6,6 +6,7 @@ This streamlit app, inspired by [Building effective agents by anthropic](https:/
 <img width="1379" alt="Screenshot 2025-01-03 at 10 03 40 am" src="https://github.com/user-attachments/assets/c846c64e-4b55-4342-80db-8510bc213931" />
 
 ## Overview of the App
+<img width="1417" alt="Screenshot 2025-01-03 at 10 18 29 am" src="https://github.com/user-attachments/assets/4ce71829-9ef8-473b-9e22-1c586c313d04" />
 
 Current structures include:
 
