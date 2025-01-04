@@ -14,14 +14,14 @@ streamlit.write("---")
 
 
 
-iframe_src = "https://www.anthropic.com/research/building-effective-agents"
-components.iframe(iframe_src)
+# iframe_src = "https://www.anthropic.com/research/building-effective-agents"
+# components.iframe(iframe_src)
 
 
-if "api_key" not in streamlit.session_state:
-    streamlit.session_state["api_key"] = ""
-
-streamlit.session_state["api_key"] = streamlit.text_input("Enter your API Key", value=streamlit.session_state["api_key"], type="password")
-
-streamlit.write("Your current API key is:", streamlit.session_state["api_key"])
-client = OpenAI(api_key=streamlit.session_state["api_key"])
+if "client" not in streamlit.session_state:
+    api_key = streamlit.text_input("Enter your API Key", type="password")
+    if api_key:
+        streamlit.session_state["client"] = OpenAI(api_key=api_key)
+else:
+    streamlit.write("Your API key has been provided.")
+    
