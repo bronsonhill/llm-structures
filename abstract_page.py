@@ -15,7 +15,6 @@ class AbstractPage(ABC):
     def display_title_and_description(self):
         streamlit.title(self.title)
         streamlit.markdown(self.description)
-        streamlit.write("---")
 
     def display_chat_messages(self):
         for msg in streamlit.session_state.messages:
